@@ -67,7 +67,7 @@ function showDetails(e){
             e.target.textContent = "close comments";
         } else {
             comments.hidden = true;
-            e.target.textContent = "see comments";
+            e.target.textContent = "load comments";
         }
 
         fetch("https://jsonplaceholder.typicode.com/comments?postId=" + postId)

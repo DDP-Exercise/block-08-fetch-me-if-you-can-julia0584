@@ -1,0 +1,60 @@
+body{
+    font-family: Rubik, sans-serif;
+    background-color: #a1b6ad;
+    color: #393939;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+    background: #393939;
+    color: white;
+}
+
+button:hover {
+    background: #202020;
+}
+
+button.about {
+    margin-left: 12px;
+}
+
+button.comments {
+    margin-top: 15px;
+}
+
+.details {
+    text-align: left;
+}
+
+.details a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
+p.commentsBox {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

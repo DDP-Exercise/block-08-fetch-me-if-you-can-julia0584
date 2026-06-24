@@ -139,7 +139,7 @@ function print(){
 
 
             const commentBtn = document.createElement("button");
-            commentBtn.textContent = "see comments";
+            commentBtn.textContent = "load comments";
             commentBtn.classList.add("comments");
             commentBtn.dataset.postId = allUsers[i].posts[n].id;
             post.append(commentBtn);
